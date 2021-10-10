@@ -2,4 +2,39 @@ body{background-color:rgb(41, 59, 95)}
 
 h1{color: rgb(219, 230, 253);}
 
-#2{color: lawngreen;}
+div{
+    border: 2px solid black;
+}
+
+#profilepic{
+    float:left;
+    height: 280px;
+    width: fit-content; 
+    padding: 10px;
+    background-color: cadetblue;
+}
+
+.image-container{
+    height: 300px;
+    position: relative;
+}
+
+.meunome{
+text-align: center;
+}
+
+#titulo{
+    left: 1000;
+}
+
+.descricao{
+    font-family:monospace;
+    font-size: 20px;
+    position: absolute;
+    left: 300px;
+    top:100px
+}
+
+ul li:nth-child(odd) {
+    background-color: cadetblue;
+}
